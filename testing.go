@@ -11,7 +11,7 @@ import (
 	"net/rpc"
 
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/go-plugin/internal/grpcmux"
+	"github.com/pikselisbusiness/go-plugin/internal/grpcmux"
 	"github.com/mitchellh/go-testing-interface"
 	"google.golang.org/grpc"
 )
