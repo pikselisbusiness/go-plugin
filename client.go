@@ -26,9 +26,9 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/go-plugin/internal/cmdrunner"
-	"github.com/hashicorp/go-plugin/internal/grpcmux"
-	"github.com/hashicorp/go-plugin/runner"
+	"github.com/pikselisbusiness/go-plugin/internal/cmdrunner"
+	"github.com/pikselisbusiness/go-plugin/internal/grpcmux"
+	"github.com/pikselisbusiness/go-plugin/runner"
 	"google.golang.org/grpc"
 )
 
