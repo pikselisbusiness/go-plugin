@@ -12,7 +12,7 @@ import (
 	"os/exec"
 
 	"github.com/hashicorp/go-hclog"
-	"pikselisbusiness/go-plugin/runner"
+	"github.com/pikselisbusiness/go-plugin/runner"
 )
 
 var (
