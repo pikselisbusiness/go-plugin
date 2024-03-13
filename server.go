@@ -21,7 +21,7 @@ import (
 	"strings"
 
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/go-plugin/internal/grpcmux"
+	"github.com/pikselisbusiness/go-plugin/internal/grpcmux"
 	"google.golang.org/grpc"
 )
 
