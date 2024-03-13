@@ -799,6 +799,8 @@ func (c *Client) Start() (addr net.Addr, err error) {
 		defer close(linesCh)
 
 		scanner := bufio.NewScanner(runner.Stdout())
+		buf := make([]byte, 0, 64*1024)
+		scanner.Buffer(buf, 1024*1024)
 		for scanner.Scan() {
 			linesCh <- scanner.Text()
 		}
