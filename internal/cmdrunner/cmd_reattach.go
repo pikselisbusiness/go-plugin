@@ -9,7 +9,7 @@ import (
 	"net"
 	"os"
 
-	"pikselisbusiness/go-plugin/runner"
+	"github.com/pikselisbusiness/go-plugin/runner"
 )
 
 // ReattachFunc returns a function that allows reattaching to a plugin running
